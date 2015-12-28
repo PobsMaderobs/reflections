@@ -725,7 +725,9 @@ Coin = function () {
               0,  5,
               5,  0,
               0, -5]);
-
+  this.color = 'yellow';
+  this.solid = true;
+  
   this.collidesWith = ["ship"];
 
   this.newPosition = function () {
